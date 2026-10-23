@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.aistlabs/aistlabs",
+  "title": "AISTLabs",
+  "description": "Video, image and audio generation on top AI models for agents, with an AI director built in.",
+  "version": "1.43.0",
+  "websiteUrl": "https://aistlabs.ai",
+  "repository": {
+    "url": "https://github.com/aistlabs-ai/aistlabs-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://aistlabs.ai/aist/logo-mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://aistlabs.ai/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aistlabs.ai/mcp"
+    }
+  ]
+}
